@@ -1,0 +1,126 @@
+@media screen and (max-width: 1720px) {
+  .hour,
+  .minute {
+    font-size: 40rem;
+  }
+  .meridianView {
+    font-size: 5rem;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .hour,
+  .minute {
+    font-size: 35rem;
+  }
+  .meridianView {
+    font-size: 4rem;
+  }
+}
+@media screen and (max-width: 1280px) {
+  .hour,
+  .minute {
+    font-size: 30rem;
+  }
+  .meridianView {
+    font-size: 3.5rem;
+  }
+}
+@media screen and (orientation:portrait) and (max-width: 1080px) {
+  .hourView,
+  .minuteView {
+    border-radius: 35px;
+  }
+  .hour,
+  .minute {
+    font-size: 25rem;
+  }
+  .meridianView {
+    font: size 3.2rem;
+  }
+}
+@media screen and (orientation:portrait) and (max-width: 900px) {
+  .hourView,
+  .minuteView {
+    border-radius: 25px;
+  }
+  .hour,
+  .minute {
+    font-size: 20rem;
+  }
+  .meridianView {
+    font-size: 3rem;
+  }
+}
+@media screen and (orientation:portrait) and (max-width: 720px) {
+  .hourView,
+  .minuteView {
+    border-radius: 25px;
+  }
+  .hour,
+  .minute {
+    font-size: 18rem;
+  }
+  .meridianView {
+    font-size: 2.5rem;
+  }
+}
+@media screen and (orientation:landscape) and  (max-width: 650px) {
+  #clock {
+    flex-direction: column;
+  }
+  .hourView,
+  .minuteView {
+    border-radius: 15px;
+    height: 80vw;
+    width: 80vw;
+  }
+  .hour,
+  .minute {
+    font-size: 18rem;
+  }
+  .meridianView {
+    font-size: 2.5rem;
+  }
+}
+@media screen and  (max-width: 500px) {
+  #clock {
+    flex-direction: column;
+  }
+  .hourView,
+  .minuteView {
+    border-radius: 15px;
+    height: 80vw;
+    width: 80vw;
+  }
+  .hour,
+  .minute {
+    font-size: 15rem;
+  }
+  .meridianView {
+    font-size: 2.5rem;
+  }
+}
+@media screen and  (max-width: 330px) {
+  #clock {
+    flex-direction: column;
+  }
+  .hourView,
+  .minuteView {
+    border-radius: 15px;
+    height: 80vw;
+    width: 80vw;
+  }
+  .hour,
+  .minute {
+    font-size: 12rem;
+  }
+  .meridianView {
+    font-size: 2rem;
+  }
+}
+@media screen and (orientation:landscape){
+  #clock{
+    flex-direction:row;
+  }
+}
